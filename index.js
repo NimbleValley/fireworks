@@ -76,7 +76,6 @@ document.onclick = function (event) {
         particles.splice(i, 1);
       }
     }
-    console.log(circles.length);
 
     setTimeout(update, 0);
   })();
